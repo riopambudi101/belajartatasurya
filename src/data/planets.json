@@ -1,0 +1,22 @@
+[
+  {
+    "nama": "bumi",
+    "img": "./assets/images/list/matahari.png",
+    "desc": "Ini deskripsi Bumi"
+  },
+  {
+    "nama": "jupiter",
+    "img": "./assets/images/list/matahari.png",
+    "desc": "Ini deskripsi Jupiter"
+  },
+  {
+    "nama": "mars",
+    "img": "./assets/images/list/matahari.png",
+    "desc": "Ini deskripsi Mars"
+  },
+  {
+    "nama": "matahari",
+    "img": "./assets/images/list/matahari.png",
+    "desc": "Matahari merupakan benda langit paling besar di tata surya"
+  }
+]

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+
+@font-face {
+  font-family: 'bakso sapi';
+  src: local('bakso sapi'), url('../fonts/BaksoSapi.woff') format('woff');
+}
+
+body {
+  margin: 0;
+  font-family: 'bakso sapi';
+  background-color: #09173c;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+footer {
+  min-height: 92px;
+  background: #040f29;
+  font-family: Arial, Helvetica, sans-serif;
+}
