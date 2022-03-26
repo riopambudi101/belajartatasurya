@@ -4,24 +4,24 @@ import { useParams } from 'react-router-dom';
 import '../styles/detail-page.css';
 // import dataPlanets from '../data/planets.json';
 
-import Bumi from '../data/3D/Bumi.glb';
-import BumiUSDZ from '../data/3D/BumiUSDZ.usdz';
-import Jupiter from '../data/3D/Jupiter.glb';
-import JupiterUSDZ from '../data/3D/JupiterUSDZ.usdz';
-import Mars from '../data/3D/Mars.glb';
-import MarsUSDZ from '../data/3D/MarsUSDZ.usdz';
 import Matahari from '../data/3D/Matahari.glb';
 import MatahariUSDZ from '../data/3D/MatahariUSDZ.usdz';
-// import Merkurius from '../data/3D/Merkurius.glb';
-// import MerkuriusUSDZ from '../data/3D/MerkuriusUSDZ.usdz';
-// import Neptunus from '../data/3D/Neptunus.glb';
-// import NeptunusUSDZ from '../data/3D/NeptunusUSDZ.usdz';
-// import Saturnus from '../data/3D/Saturnus.glb';
-// import SaturnusUSDZ from '../data/3D/SaturnusUSDZ.usdz';
-// import Uranus from '../data/3D/Uranus.glb';
-// import UranusUSDZ from '../data/3D/UranusUSDZ.usdz';
-// import Venus from '../data/3D/Venus.glb';
-// import VenusUSDZ from '../data/3D/VenusUSDZ.usdz';
+import Merkurius from '../data/3D/Merkurius.glb';
+import MerkuriusUSDZ from '../data/3D/MerkuriusUSDZ.usdz';
+import Venus from '../data/3D/Venus.glb';
+import VenusUSDZ from '../data/3D/VenusUSDZ.usdz';
+import Bumi from '../data/3D/Bumi.glb';
+import BumiUSDZ from '../data/3D/BumiUSDZ.usdz';
+import Mars from '../data/3D/Mars.glb';
+import MarsUSDZ from '../data/3D/MarsUSDZ.usdz';
+import Yupiter from '../data/3D/Jupiter.glb';
+import YupiterUSDZ from '../data/3D/JupiterUSDZ.usdz';
+import Saturnus from '../data/3D/Saturnus.glb';
+import SaturnusUSDZ from '../data/3D/SaturnusUSDZ.usdz';
+import Uranus from '../data/3D/Uranus.glb';
+import UranusUSDZ from '../data/3D/UranusUSDZ.usdz';
+import Neptunus from '../data/3D/Neptunus.glb';
+import NeptunusUSDZ from '../data/3D/NeptunusUSDZ.usdz';
 
 const DetailPage = () => {
   const params = useParams();
@@ -43,25 +43,41 @@ const DetailPage = () => {
   // };
   const set3DPlanet = (slug) => {
     switch (slug) {
+      case 'matahari':
+        setSrc3d(Matahari);
+        setSrcUsdz(MatahariUSDZ);
+        break;
+      case 'merkurius':
+        setSrc3d(Merkurius);
+        setSrcUsdz(MerkuriusUSDZ);
+        break;
+      case 'venus':
+        setSrc3d(Venus);
+        setSrcUsdz(VenusUSDZ);
+        break;
       case 'bumi':
         setSrc3d(Bumi);
         setSrcUsdz(BumiUSDZ);
-        break;
-      case 'jupiter':
-        setSrc3d(Jupiter);
-        setSrcUsdz(JupiterUSDZ);
         break;
       case 'mars':
         setSrc3d(Mars);
         setSrcUsdz(MarsUSDZ);
         break;
-      case 'matahari':
-        setSrc3d(Matahari);
-        setSrcUsdz(MatahariUSDZ);
+      case 'yupiter':
+        setSrc3d(Yupiter);
+        setSrcUsdz(YupiterUSDZ);
         break;
-      default:
-        setSrc3d(Bumi);
-        setSrcUsdz(BumiUSDZ);
+      case 'saturnus':
+        setSrc3d(Saturnus);
+        setSrcUsdz(SaturnusUSDZ);
+        break;
+      case 'uranus':
+        setSrc3d(Uranus);
+        setSrcUsdz(UranusUSDZ);
+        break;
+      case 'neptunus':
+        setSrc3d(Neptunus);
+        setSrcUsdz(NeptunusUSDZ);
         break;
     }
   };
