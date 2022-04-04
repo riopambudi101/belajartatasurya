@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
+import KuisSection from '../components/KuisSection';
+
 import '../styles/detail-page.css';
 // import dataPlanets from '../data/planets.json';
 
@@ -79,6 +81,10 @@ const DetailPage = () => {
         setSrc3d(Neptunus);
         setSrcUsdz(NeptunusUSDZ);
         break;
+      default:
+        setSrc3d(Mars);
+        setSrcUsdz(MarsUSDZ);
+        break;
     }
   };
   return (
@@ -109,6 +115,10 @@ const DetailPage = () => {
           <div id="annotation">{params.slug}</div>
         </button>
       </model-viewer>
+
+      <div className="kuis-section">
+        <KuisSection data={params.slug} />
+      </div>
     </section>
   );
 };

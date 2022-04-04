@@ -4,7 +4,11 @@ module.exports = {
     container: {
       padding: '1.25rem',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        comic: ['Comic Neue', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
