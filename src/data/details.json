@@ -1,0 +1,83 @@
+[
+  {
+    "nama": "matahari",
+    "desc": "Matahari atau Surya adalah bintang di pusat Tata Surya. Bentuknya nyaris bulat dan terdiri dari plasma panas bercampur medan magnet. Diameternya sekitar 1.392.684 km, kira-kira 109 kali diameter Bumi, dan massanya (sekitar 2×1030 kilogram, 330.000 kali massa Bumi) mewakili kurang lebih 99,86 % massa total Tata Surya.",
+    "facts": [
+      "Matahari terbentuk sekitar 4.6 milyar tahun yang lalu.",
+      "Matahari merupakan bola gas raksasa.",
+      "Suhu di pusat matahari mencapai 15 juta derajat celcius"
+    ]
+  },
+  {
+    "nama": "merkurius",
+    "desc": "Merkurius adalah planet terdekat dari Matahari dan juga merupakan planet terkecil (0,055 massa bumi). Merkurius tidak memiliki satelit alami dan ciri geologisnya di samping kawah meteorid yang diketahui adalah lobed ridges atau rupes, kemungkinan terjadi karena pengerutan pada perioda awal sejarahnya.",
+    "facts": [
+      "Merkurius merupakan planet terkecil yang ada pada tata surya.",
+      "Merkurius hanya dapat terlihat pada saat subuh atau maghrib.",
+      "Memiliki kala revolusi 88 hari dan kala rotasi 59 hari terhadap matahari."
+    ]
+  },
+  {
+    "nama": "venus",
+    "desc": "Venus berukuran mirip bumi (0,815 massa bumi). Dan seperti bumi, planet ini memiliki selimut kulit silikat yang tebal dan berinti besi, atmosfernya juga tebal dan memiliki aktivitas geologi. Akan tetapi planet ini lebih kering dari bumi dan atmosfernya sembilan kali lebih padat dari bumi. Venus tidak memiliki satelit.",
+    "facts": [
+      "Venus adalah planet terpanas dengan suhu permukaan mencapai 400 derajat celcius",
+      "Venus adalah planet terdekat kedua dari Matahari setelah Merkurius.",
+      "Planet Venus dapat dilihat segera sebelum matahari terbit atau setelah matahari terbenam, sehingga disebut Bintang Fajar atau Bintang Senja."
+    ]
+  },
+  {
+    "nama": "bumi",
+    "desc": "Bumi adalah planet bagian dalam yang terbesar dan terpadat, satu-satunya yang diketahui memiliki aktivitas geologi dan satu-satunya planet yang diketahui memiliki mahluk hidup. 70% bagian bumi ditutup oleh air sedangkan 30%bumi ditutupi oleh daratan. Hidrosfernya yang cair adalah khas di antara planet-planet kebumian dan juga merupakan satu-satunya planet yang diamati memiliki lempeng tektonik. Atmosfer bumi sangat berbeda dibandingkan planet-planet lainnya, karena dipengaruhi oleh keberadaan mahluk hidup yang menghasilkan 21% oksigen.",
+    "facts": [
+      "Bumi memiliki satelit alami, yaitu Bulan.",
+      "Satu-satunya planet yang diketahui memiliki kehidupan.",
+      "Sebesar 70% bagian bumi ditutupin oleh air, dan 30% sisanya adalah daratan."
+    ]
+  },
+  {
+    "nama": "mars",
+    "desc": "Mars berukuran lebih kecil dari bumi dan Venus (0,107 massa bumi). Planet ini memiliki atmosfer tipis yang kandungan utamanya adalah karbon dioksida. Permukaan Mars yang dipenuhi gunung berapi raksasa seperti Olympus Mons dan lembah retakan seperti Valles marineris, menunjukan aktivitas geologis yang terus terjadi sampai belakangan ini.",
+    "facts": [
+      "Warna merah pada planet Mars berasal dari karat tanah yang kaya akan besi.",
+      "Mars memiliki 2 planet alami kecil, yaitu Deimos dan Phobos.",
+      "Nama planet Mars diambil dari nama dewa perang Romawi."
+    ]
+  },
+  {
+    "nama": "yupiter",
+    "desc": "Yupiter, memiliki massa 2,5 kali lebih besar dari massa gabungan seluruh planet lain. Kandungan utamanya adalah hidrogen dan helium. Sumber panas di dalam Yupiter menyebabkan timbulnya beberapa ciri semi-permanen pada atmosfernya, sebagai contoh pita pita awan dan Bintik Merah Raksasa. Sejauh yang diketahui, Yupiter memiliki 63 satelit alami.",
+    "facts": [
+      "Planet Yupiter sebagian besar terdiri atas hydrogen dan helium.",
+      "Planet yupiter memiliki 4 satelit alami terbesar yaitu Ganymede, Callisto, Io, dan Europa.",
+      "Satelit Ganymede yang dimiliki Yupiter, memiliki ukuran lebih besar dari planet Merkurius."
+    ]
+  },
+  {
+    "nama": "saturnus",
+    "desc": "Saturnus yang dikenal dengan sistem cincinnya, memiliki beberapa kesamaan dengan Yupiter, sebagai contoh komposisi atmosfernya. Meskipun Saturnus hanya sebesar 60% volume Yupiter, planet ini hanya seberat kurang dari sepertiga Yupiter atau 95 kali massa bumi, membuat planet ini sebuah planet yang paling tidak padat di Tata Surya.",
+    "facts": [
+      "Planet Saturnus sering dikenal sebagai Planet bercincin.",
+      "Planet Saturnus merupakan planet terbesar kedua.",
+      "Saturnus memiliki 60 satelit alami yang diketahui sampai saat ini."
+    ]
+  },
+  {
+    "nama": "uranus",
+    "desc": "Uranus yang memiliki 14 kali massa bumi, adalah planet yang paling ringan di antara planet-planet luar. Planet ini memiliki kelainan ciri orbit. Uranus memutari Matahari dengan ukuran poros 90 derajat pada ekliptika. Planet ini hanya sedikit memancarkan energi panas. Uranus memiliki 27 satelit alami yang sudah diketahui hingga saat ini.",
+    "facts": [
+      "Planet Uranus memiliki inti yang sangat dingin.",
+      "Satelit terbesar yang dimiliki Uranus adalah Titania, Oberon, Umbriel, Ariel, dan Miranda.",
+      "Planet Uranus merupakan planet yang paling ringan diantara planet-planet luar."
+    ]
+  },
+  {
+    "nama": "neptunus",
+    "desc": "Neptunus meskipun sedikit lebih kecil dari Uranus, memiliki 17 kali massa bumi, sehingga membuatnya lebih padat. Planet ini memancarkan panas dari dalam tetapi tidak sebanyak Yupiter atau Saturnus. Neptunus memiliki 13 satelit yang diketahui. Neptunus juga didampingi beberapa planet minor pada orbitnya, yang disebut Trojan Neptunus. Benda-benda ini memiliki resonansi 1:1 dengan Neptunus.",
+    "facts": [
+      "Salah satu satelit terbesar yang dimiliki Neptunus adalah Triton.",
+      "Neptunus merupakan planet terbesar keempat.",
+      "Periode rotasi Neptunus hanya 16.1 jam."
+    ]
+  }
+]

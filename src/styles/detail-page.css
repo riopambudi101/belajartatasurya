@@ -35,3 +35,25 @@ button[slot='hotspot-foot']:not([data-visible]) {
 :not(:defined) > * {
   display: none;
 }
+
+#text-fakta {
+  animation: textrun 7s linear 0s infinite;
+}
+
+@keyframes textrun {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(10%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

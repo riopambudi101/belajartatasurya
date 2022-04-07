@@ -2,46 +2,46 @@
   {
     "nama": "matahari",
     "img": "./assets/images/list/matahari.png",
-    "desc": "matahari"
+    "desc": "Matahari atau Surya adalah bintang di pusat Tata Surya dan memiliki besar 1.39juta km."
   },
   {
     "nama": "merkurius",
-    "img": "./assets/images/list/matahari.png",
-    "desc": "Ini deskripsi merkurius"
+    "img": "./assets/images/list/merkurius.png",
+    "desc": "Merkurius adalah planet terdekat dari Matahari dan juga merupakan planet terkecil di tata surya!"
   },
   {
     "nama": "venus",
-    "img": "./assets/images/list/matahari.png",
-    "desc": "Ini deskripsi venus"
+    "img": "./assets/images/list/venus.png",
+    "desc": "Venus berukuran mirip bumi, akan tetapi planet ini lebih kering dari bumi."
   },
   {
     "nama": "bumi",
-    "img": "./assets/images/list/matahari.png",
-    "desc": "Ini deskripsi Bumi"
+    "img": "./assets/images/list/bumi.png",
+    "desc": "Bumi adalah planet yang kita tempati. 70% bagian bumi tertutupi oleh air."
   },
   {
     "nama": "mars",
-    "img": "./assets/images/list/matahari.png",
-    "desc": "Ini deskripsi mars"
+    "img": "./assets/images/list/mars.png",
+    "desc": "Mars berukuran lebih kecil dari bumi dan sering disebut sebagai planet merah."
   },
   {
     "nama": "yupiter",
-    "img": "./assets/images/list/matahari.png",
-    "desc": "Ini deskripsi yupiter"
+    "img": "./assets/images/list/yupiter.png",
+    "desc": "Yupiter, memiliki massa berat 2,5 kali lebih besar dari massa gabungan seluruh planet lain!"
   },
   {
     "nama": "saturnus",
-    "img": "./assets/images/list/matahari.png",
-    "desc": "Ini deskripsi saturnus"
+    "img": "./assets/images/list/saturnus.png",
+    "desc": "Saturnus adalah planet terbesar kedua dan sering disebut sebagai Planet bercincin."
   },
   {
     "nama": "uranus",
-    "img": "./assets/images/list/matahari.png",
-    "desc": "Ini deskripsi uranus"
+    "img": "./assets/images/list/uranus.png",
+    "desc": "Uranus adalah planet yang paling ringan di antara planet-planet luar."
   },
   {
     "nama": "neptunus",
-    "img": "./assets/images/list/matahari.png",
-    "desc": "neptunus"
+    "img": "./assets/images/list/neptunus.png",
+    "desc": "Neptunus adalah planet terbesar keempat dan memiliki 13 satelit alami."
   }
 ]

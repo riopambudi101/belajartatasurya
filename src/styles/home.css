@@ -13,7 +13,7 @@
 }
 
 #item-container {
-  min-height: 412px;
+  height: 450px;
   transition: all 300ms ease-in-out;
   transform: scale(1);
   cursor: pointer;
@@ -30,9 +30,22 @@
   font-family: 'Comic Neue';
 }
 
-#item-container:hover {
+/* #item-container:hover {
   transform: scale(1.04);
 }
 #item-container:hover .img-item-wrap img {
   transform: rotateZ(20deg);
+} */
+
+#item-container .img-item-wrap {
+  animation: planetrotate 14s linear 0s infinite;
+}
+
+@keyframes planetrotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
