@@ -21,6 +21,24 @@ code {
     monospace;
 }
 
+/* NAVBAR */
+#navbar .title-nav {
+  transform: scale(0.9);
+  animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite
+    alternate;
+}
+
+@keyframes bop {
+  0% {
+    transform: scale(0.9);
+  }
+  50%,
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* FOOTER */
 footer {
   min-height: 92px;
   background: #040f29;
