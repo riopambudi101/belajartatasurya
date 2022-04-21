@@ -1,0 +1,18 @@
+.nav-item-wrap {
+    top: 76px;
+    height: max-content;
+    right: 100%;
+    border: 1px solid #506cbb;
+    border-radius: 10px;
+    transition: all 250ms ease-in-out;
+    width: 95%;
+    transform: translateX(-2.5%);
+}
+.nav-item-wrap.active {
+    right: 0;
+}
+
+.nav-item-wrap ul li {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #506dbb60;
+}

@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         comic: ['Comic Neue', 'sans-serif'],
       },
+      backgroundColor: {
+        'blue-primary': ['#09173c'],
+      },
     },
   },
   plugins: [],
