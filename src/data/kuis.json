@@ -1,0 +1,197 @@
+[
+  {
+    "planet": "matahari",
+    "soal": "Berapakah suhu yang ada di pusat Matahari?",
+    "kunci": 1,
+    "pilihan": [
+      {
+        "id": 1,
+        "text": "15 juta derajat Celcius"
+      },
+      {
+        "id": 2,
+        "text": "11 juta derajat Celcius"
+      },
+      {
+        "id": 3,
+        "text": "9 juta derajat Celcius"
+      },
+      {
+        "id": 4,
+        "text": "22 juta derajat Celcius"
+      }
+    ]
+  },
+  {
+    "planet": "merkurius",
+    "soal": "Apakah Merkurius merupakan planet terkecil yang ada di tata surya?",
+    "kunci": 1,
+    "pilihan": [
+      {
+        "id": 1,
+        "text": "Ya"
+      },
+      {
+        "id": 2,
+        "text": "Tidak"
+      }
+    ]
+  },
+  {
+    "planet": "venus",
+    "soal": "Venus dikenal sebagai planet terpanas. Berapakah suhu tertinggi yang ada pada Planet Venus? … derajat Celcius",
+    "kunci": 3,
+    "pilihan": [
+      {
+        "id": 1,
+        "text": "250"
+      },
+      {
+        "id": 2,
+        "text": "300"
+      },
+      {
+        "id": 3,
+        "text": "400"
+      },
+      {
+        "id": 4,
+        "text": "500"
+      }
+    ]
+  },
+  {
+    "planet": "bumi",
+    "soal": "70% bagian Bumi ditutupi oleh ...",
+    "kunci": 2,
+    "pilihan": [
+      {
+        "id": 1,
+        "text": "Tanah"
+      },
+      {
+        "id": 2,
+        "text": "Air"
+      },
+      {
+        "id": 3,
+        "text": "Batu"
+      },
+      {
+        "id": 4,
+        "text": "Kayu"
+      }
+    ]
+  },
+  {
+    "planet": "mars",
+    "soal": "Berasal dari manakah warna merah yang ada pada Planet Mars?",
+    "kunci": 1,
+    "pilihan": [
+      {
+        "id": 1,
+        "text": "Karat Tanah"
+      },
+      {
+        "id": 2,
+        "text": "Daun Pohon"
+      },
+      {
+        "id": 3,
+        "text": "Karat Besi"
+      }
+    ]
+  },
+  {
+    "planet": "yupiter",
+    "soal": "Dari beberapa satelit yang dimiliki Yupiter, manakah yang ukurannya lebih besar dari Planet Merkurius?",
+    "kunci": 3,
+    "pilihan": [
+      {
+        "id": 1,
+        "text": "Callisto"
+      },
+      {
+        "id": 2,
+        "text": "Io"
+      },
+      {
+        "id": 3,
+        "text": "Ganimede"
+      },
+      {
+        "id": 4,
+        "text": "Europa"
+      }
+    ]
+  },
+  {
+    "planet": "saturnus",
+    "soal": "Apakah nama lain dari Planet Saturnus?",
+    "kunci": 2,
+    "pilihan": [
+      {
+        "id": 1,
+        "text": "Planet Bebatuan"
+      },
+      {
+        "id": 2,
+        "text": "Planet Bercincin"
+      },
+      {
+        "id": 3,
+        "text": "Planet Berawan"
+      },
+      {
+        "id": 4,
+        "text": "Planet Berair"
+      }
+    ]
+  },
+  {
+    "planet": "uranus",
+    "soal": "Berapakah jumlah satelit alami yang dimiliki oleh Planet Uranus?",
+    "kunci": 1,
+    "pilihan": [
+      {
+        "id": 1,
+        "text": "27"
+      },
+      {
+        "id": 2,
+        "text": "24"
+      },
+      {
+        "id": 3,
+        "text": "13"
+      },
+      {
+        "id": 4,
+        "text": "36"
+      }
+    ]
+  },
+  {
+    "planet": "neptunus",
+    "soal": "Saturnus merupakan planet terbesar ke-...",
+    "kunci": 2,
+    "pilihan": [
+      {
+        "id": 1,
+        "text": "Lima"
+      },
+      {
+        "id": 2,
+        "text": "Empat"
+      },
+      {
+        "id": 3,
+        "text": "Tiga"
+      },
+      {
+        "id": 4,
+        "text": "Dua"
+      }
+    ]
+  }
+]

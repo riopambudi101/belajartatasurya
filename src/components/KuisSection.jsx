@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
+import dataKuis from '../data/kuis.json';
+
 function KuisSection({ data }) {
   const [kunci, setKunci] = useState('');
   const [soal, setSoal] = useState('');
@@ -8,19 +10,24 @@ function KuisSection({ data }) {
   const [isTrue, setIsTrue] = useState(null);
 
   useEffect(() => {
-    if (data) {
-      switch (data) {
-        case 'mars':
-          setKunci('coklat');
-          setSoal('Apakah warna dari mars?');
-          setPilihan(['coklat', 'biru', 'kuning']);
-          break;
-        default:
-          setKunci('');
-          break;
+    let dataMiniKuis = null;
+    dataKuis.forEach((item) => {
+      if (item.planet === data) {
+        dataMiniKuis = item;
       }
-    }
+    });
+
+    setDataKuis(dataMiniKuis);
   }, [data]);
+
+  const setDataKuis = (item) => {
+    const { planet, kunci, soal, pilihan } = item;
+    if (planet) {
+      setKunci(kunci);
+      setSoal(soal);
+      setPilihan(pilihan);
+    }
+  };
 
   const seeAnswer = (e) => {
     e.preventDefault();
@@ -46,22 +53,22 @@ function KuisSection({ data }) {
       </p>
       <form className="px-4 mt-2" onSubmit={(e) => seeAnswer(e)}>
         {pilihan.length !== 0 &&
-          pilihan.map((item, idx) => (
+          pilihan.map((item) => (
             <div
               className="jawaban-wrap font-comic flex items-center gap-2 mb-2"
-              key={idx}
+              key={item.id}
             >
               <input
                 type="radio"
                 name="jawaban"
-                value={item}
-                id={idx}
+                value={item.text}
+                id={item.id}
                 onChange={() => {
-                  setJawaban(item);
+                  setJawaban(item.id);
                   setIsTrue(null);
                 }}
               />
-              <label htmlFor={idx}>{item}</label>
+              <label htmlFor={item.id}>{item.text}</label>
             </div>
           ))}
         <button
