@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Item from '../components/Item';
 import '../styles/home.css';
 

@@ -22,7 +22,7 @@ function Navbar() {
     }
   };
   return (
-    <section
+    <nav
       id="navbar"
       className="h-16 py-3 px-5 flex items-center justify-between sticky top-0 z-50"
       style={{
@@ -47,18 +47,35 @@ function Navbar() {
       <div className="nav-item-wrap absolute right-0 bottom-0 bg-blue-primary-0 p-5">
         <ul className="text-sm grid gap-5">
           <li>
-            <Link className="w-full" to={'/petunjuk'} onClick={() => openNav()}>
+            <Link
+              className="w-full inline-block"
+              to={'/'}
+              onClick={() => openNav()}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="w-full inline-block"
+              to={'/petunjuk'}
+              onClick={() => openNav()}
+            >
               Halaman Petunjuk
             </Link>
           </li>
           <li>
-            <Link className="w-full" to={'/tentang'} onClick={() => openNav()}>
+            <Link
+              className="w-full inline-block"
+              to={'/tentang'}
+              onClick={() => openNav()}
+            >
               Halaman Tentang
             </Link>
           </li>
         </ul>
       </div>
-    </section>
+    </nav>
   );
 }
 
