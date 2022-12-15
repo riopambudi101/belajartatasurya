@@ -1,5 +1,10 @@
 [
   {
+    "nama": "tata surya",
+    "img": "./assets/images/list/tata-surya.png",
+    "desc": "Tata surya adalah sistem yang tersusun oleh matahari dan benda-benda langit yang mengelilinginya."
+  },
+  {
     "nama": "matahari",
     "img": "./assets/images/list/matahari.png",
     "desc": "Matahari atau Surya adalah bintang di pusat Tata Surya dan memiliki besar 1.39juta km."

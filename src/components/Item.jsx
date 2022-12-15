@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Item = ({ data }) => {
   return (
@@ -9,7 +9,7 @@ const Item = ({ data }) => {
           <img src={data.img} alt={data.nama} />
         </div>
         <div className="text-content">
-          <h1 className="title-list-item text-5xl text-center">{data.nama}</h1>
+          <h1 className="title-list-item text-4xl text-center">{data.nama}</h1>
           <p className="desc-list-item mt-5 text-xl text-center">{data.desc}</p>
         </div>
       </div>

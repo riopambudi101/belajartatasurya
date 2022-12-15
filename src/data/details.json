@@ -1,5 +1,10 @@
 [
   {
+    "nama": "tata surya",
+    "desc": "Tata Surya adalah kumpulan benda langit yang terdiri atas sebuah bintang yang disebut Matahari dan semua objek yang terikat oleh gaya gravitasinya. Objek-objek tersebut termasuk delapan buah planet yang sudah diketahui dengan orbit berbentuk elips, lima planet kerdil/ katai, 173 satelit alami yang telah diidentifi kasi, dan jutaan benda langit (meteor, asteroid, komet) lainnya.",
+    "facts": []
+  },
+  {
     "nama": "matahari",
     "desc": "Matahari atau Surya adalah bintang di pusat Tata Surya. Bentuknya nyaris bulat dan terdiri dari plasma panas bercampur medan magnet. Diameternya sekitar 1.392.684 km, kira-kira 109 kali diameter Bumi, dan massanya (sekitar 2×1030 kilogram, 330.000 kali massa Bumi) mewakili kurang lebih 99,86 % massa total Tata Surya.",
     "facts": [

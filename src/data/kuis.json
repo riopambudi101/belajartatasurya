@@ -1,5 +1,28 @@
 [
   {
+    "planet": "tata surya",
+    "soal": "Apakah planet yang paling dekat dengan Matahari?",
+    "kunci": 4,
+    "pilihan": [
+      {
+        "id": 1,
+        "text": "Venus"
+      },
+      {
+        "id": 2,
+        "text": "Bumi"
+      },
+      {
+        "id": 3,
+        "text": "Uranus"
+      },
+      {
+        "id": 4,
+        "text": "Merkurius"
+      }
+    ]
+  },
+  {
     "planet": "matahari",
     "soal": "Berapakah suhu yang ada di pusat Matahari?",
     "kunci": 1,
